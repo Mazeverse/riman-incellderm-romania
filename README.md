@@ -1,13 +1,18 @@
-# RIMAN INCELLDERM România — draft
+# RIMAN INCELLDERM România
 
-Static Romanian-language informational landing page. Deploy as a static site to Vercel from GitHub.
+Static Romanian-language informational landing page for Vercel.
 
-## Files
-- `index.html` — responsive landing page
+Live URL: https://riman-incellderm-romania.vercel.app/
 
-## Before publication
-- Verify whether referral username `1021859591` is recognized in the Romanian official RIMAN shop.
-- Add accurate publisher/operator details and required legal/privacy disclosures.
-- Once the actual Vercel URL is known, add canonical and Open Graph URLs, and create `robots.txt` and `sitemap.xml` with that real URL.
-- Add Google Search Console verification code when supplied.
-- This is an independent information site, not an official RIMAN site.
+## Included files
+- `index.html` — responsive page, canonical URL, Open Graph URL, Google Search Console verification
+- `robots.txt` — crawl instructions and sitemap reference
+- `sitemap.xml` — live homepage URL
+
+## Publishing
+Upload the **contents** of this folder to the root of the GitHub repository and deploy with Vercel as a static site.
+
+## Important
+- Confirm whether referral username `1021859591` works on the Romanian RIMAN official website.
+- Supply accurate operator/contact and legally required privacy details before using this commercially.
+- This is an independent informational page, not an official RIMAN website.
